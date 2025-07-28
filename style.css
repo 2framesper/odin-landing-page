@@ -1,0 +1,210 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    color: #c7c9cd;
+    font-size: 18px;
+}
+
+/* This is all about the header */
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 150px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 400;
+}
+
+/* This is all about section 1 */
+
+.sec1{
+    background-color: #1F2937;
+    padding: 50px 150px 100px 150px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.sub1 {
+    flex: 1;
+}
+
+.sub2 {
+    background-color: hsl(220, 13%, 91%, 60%);
+    color: #F9FAF8;
+    font-size: 16px;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    width: 150px;
+    font-weight: 700;
+}
+
+/* This is all about section 2 */
+
+.sec2 {
+    padding: 20px 200px 80px 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.row {
+    display: flex;
+    gap: 48px;
+}
+
+.rowbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: #3882F6;
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.subtext{
+    color: #909195;
+    text-align: center;
+    width: 150px;
+}
+
+/* This is all about section 3 (the quote) */
+
+.sec3{
+    background-color: #E5E7EB;
+    padding: 85px 230px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.person{
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+}
+
+/* This is all about section 4 */
+
+.sub3{
+    background-color: #3882F6;
+    margin: 85px 150px;
+    border-radius: 15px;
+    padding: 40px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+}
+
+h3{
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.subtext2{
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.button2{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    flex: 0, 0;
+}
+
+/* This is all about the footer */
+
+.footer{
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
